@@ -1,0 +1,32 @@
+{
+  "name": "@aman/create-project",
+  "version": "1.0.0",
+  "description": "A CLI to bootstrap my projects",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "@aman/create-project": "bin/create-project"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "cli",
+    "create-project"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "arg": "^5.0.1",
+    "chalk": "^4.1.2",
+    "child_process": "^1.0.2",
+    "esm": "^3.2.25",
+    "execa": "^6.0.0",
+    "inquirer": "^8.2.0",
+    "listr": "^0.14.3",
+    "ncp": "^2.0.0",
+    "pkg-install": "^1.0.0"
+  }
+}
